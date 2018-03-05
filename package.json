@@ -1,0 +1,30 @@
+{
+  "name": "newssms",
+  "version": "1.0.0",
+  "description": "NewsSMS =================== This is a Google Chrome extension which allows users to input their phone numbers, so that the article they are currently viewing on the BBC website, gets sent to their phone as a text.",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaseen315/newsSms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaseen315/newsSms/issues"
+  },
+  "homepage": "https://github.com/Yaseen315/newsSms#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.5",
+    "request": "^2.83.0",
+    "save": "^2.3.2",
+    "twilio": "^3.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
