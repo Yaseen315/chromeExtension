@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Yaseen315/chromeExtension#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.5",
     "request": "^2.83.0",
     "twilio": "^3.13.0"
   }
