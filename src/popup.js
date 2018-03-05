@@ -1,10 +1,10 @@
-import _ from 'lodash';
 
-export var request = require('request');
-export var cheerio = require('cheerio');
+
+ var request = require('request');
+ var cheerio = require('cheerio');
  const accountSid = 'AC8081e11c434cf78d7337089f667b86d8';
 const authToken = '526fe5700e5f123196b939cbbfe04332';
-export const client = require('twilio')(accountSid, authToken);
+ const client = require('twilio')(accountSid, authToken);
 
 
 function click(e) {
